@@ -1,0 +1,149 @@
+% ----------------------------------------------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------------------------------------------
+% 4/13/2009 --> this is the first of the "official" version of the manuscript, to improve readability
+% for the co-authors in order to improve the readability of the latex file.  See Feb, 2009 version
+% for deleted texts!
+% ----------------------------------------------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------------------------------------------
+
+
+\documentclass[aps,prl,preprint,showpacs]{revtex4}
+%\documentclass[aps,prl,twocolumn,showpacs]{revtex4}
+\usepackage{graphicx}
+%\textwidth = 6.5in
+%\textheight = 9in
+
+% I_0 --> I_0/\lambda-0^2
+% L --> L/\lambda_0
+% \epsilon -> \varepsilon
+
+% Schuss --> Ref
+% Simulation box estimate needs to be revised.
+ 
+
+
+\def\a0{{a_{0}}}
+\def\wp{\omega_{p}}
+\def\beq{\begin{equation}}
+\def\eeq{\end{equation}}
+\def\ddt{\frac{\partial}{\partial t}}
+\def\ddx{\frac{\partial}{\partial x}}
+\def\ddv{\frac{\partial}{\partial v}}
+\def\2wp{$2 \omega_p$}
+\def\betawig{$\tilde{\beta}$ }
+\def\v0wig{$\tilde{v_0}$ }
+\def\v0wigh{$\tilde{v_0}^{(1/2)}$ }
+\def\cmult{$C_{MULT}$}
+\def\kperp{$k_{\perp}$}
+
+
+\begin{document}
+This is my tribute to my thesis advisor John Dawson, whose breadth of 
+knowledge is amazing to me.  I want to transcribe his notes on 
+non-equilibrium statistical mechanics and in the process try to really
+learn this stuff and try to teach it when I am in a position to do so.
+(page 1)
+
+\section{Review of some basic ideas from statistical
+mechanics}
+\subsection{Probability}
+
+Consider that there is some physical situation or process which we are 
+interested in. Let $x$ be some quantity associated with this situation. 
+Some examples are:
+\begin{enumerate}
+\item Flipping coins, $x = heads \ or \ tails$
+\item Rolling a dice, $x = 1,2,3,4,5,6$
+\item Number of molecules in a small volume, $x = 1,2,...N$,
+where $N$ is the maximum possible number of particles which can 
+be placed in the volume
+\item Velocity of a particle in the $\hat{x}$ direction,
+$-\infty < x < \infty$
+\end{enumerate}
+
+Depending on what we are investigating, $x$ may be a discrete or
+continuous variable.  To define probability we must imagine that we have 
+many examples (ensembles), ideally an infinite number of examples.  If 
+$x$ is discrete then the probability of finding $x$ is equal to the
+fraction of total number of examples in which $x$ is found.  If $x$
+is a continuous variable then the probability of finding $x$
+in a small region of volume $dx$ centered around $x_0$ is
+\[
+P(x_0) dx
+\]
+is defined as the fraction of total number of examples in which $x$ 
+found in the desired interval described above.
+
+\subsection{Entropy and Probability}
+Let us consider a large number of systems
+(called an ensemble of systems) which are isolated
+from each other and which are identical as to the number of
+particles they contain, and as to their total energy.  They
+might also be identical as to volume, shape of the volume, linear
+momentum, angular momentum, and perhap some other unspecified macroscopic
+quantities.  Let $x$ be some quantity associated with the 
+systems which is not fixed and can vary from system to system.  An
+example is the density of particles in some small region of the
+container.  It should be stressed that $x$ can be almost 
+any quantity that can be associated with the system.  We can even
+consider sets of $x's$ which contain many 
+terms (for example the densities in many subregions of the system).
+However the number of x's should be much less than the number of particles
+in the system.  The $x's$ should not give a complete
+dynamical description of the system.  Let us further assume that the
+ensemble is an equilibrium ensemble by which we mean that the number 
+of systems found in any given possible state at one time is
+the same as that found at any other time.  Then it is a basic result of
+equilibrium statistical mechanics that the probability of finding a system 
+with $x$ lying between $x$ and $x+dx$ is given by 
+\beq
+P(x) dx \propto e^{S(x)/k} dx
+\eeq
+or
+\beq
+S=k \ln P
+\eeq
+where $S$ is the entropy of the system when $x$ takes on the 
+prescribed value.  If $x_0$ is the equilibrium value of $x$, or 
+the most probable value of $x$, then for small 
+derivations from this value we have
+\beq
+\xi = x - x_0
+\eeq
+
+\beq
+P(\xi) d \xi \propto exp(\frac{S(x_0)}{k}) 
+exp\left( \frac{1}{k} \frac{d^2 S}{dx^2} \xi^2/2 \right) \propto
+exp\left( \frac{1}{k} \frac{d^2 S}{dx^2} \xi^2/2 \right)
+\eeq
+and, as you recall:
+\beq
+\left(\frac{\partial S}{\partial x} \right)_{x=x_0} = 0
+\eeq
+Since $S$ is a maximum for $x = x_0$, 
+$\left(\frac{\partial^2 S}{\partial x^2} \right)_{x=x_0} < 0$
+.  If we are considering more
+than one $x$ then we would have
+
+
+(page 45)
+As $t -> \infty$ we find
+\beq
+\bar{x \dot{x}} = \frac{1}{2} \frac{I \tau^2}{m^2}
+\label{181}
+\eeq
+which is constant.  This correlation result; from the fact that the particle
+velocity during the last stopping time $\tau$ is related to its
+present velocity.  However, since $\bar{x^2}$ becomes large with t
+and $\bar{x \dot{x}}$ remains bounded, we see that for large
+times there is essentially no correlation between $x$ and $\dot{x}$
+
+\section{The Timd Development of an Initial Distribution}
+
+
+
+\end{document}
+
+
