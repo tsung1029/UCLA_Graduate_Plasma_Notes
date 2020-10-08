@@ -14,4 +14,4 @@ Fried + Nishikawa:  Fried & Nishikawa planned to write a book called "Modern Pla
 
 Morales:  This is my copy of the George Morales 222a-c, which was taught from 1980's to 2020.  
 
-
+Papers:  This folder are foundamental papers which were at the forefront of plasma physics at the time they were written but are extremely foundamental today.
