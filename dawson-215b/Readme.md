@@ -1,4 +1,4 @@
-# Statistical Mechanics Notes (Pages 18 --- 3)
+# Statistical Mechanics Notes (Pages 18 --- 43)
 
 ---
 
